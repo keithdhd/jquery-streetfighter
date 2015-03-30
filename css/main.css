@@ -1,0 +1,23 @@
+body{
+	background-color: black;
+	text-align: center;
+	margin:0 auto;
+}
+.container{
+	background-color: white;
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+	height:500px;
+	margin:50px 0;
+}
+.ryu,
+.instructions{
+	display: inline-block;
+}
+.ryu{
+	width:50%;
+	float: left;
+}
+.instructions{
+	width:50%;
+}
