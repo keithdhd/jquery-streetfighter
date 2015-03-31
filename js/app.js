@@ -5,7 +5,7 @@ $(document).ready(function(){
 });	
 
 function init(){
-
+//do something
 }
 
 
