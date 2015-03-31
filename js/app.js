@@ -5,8 +5,7 @@ $(document).ready(function(){
 });	
 
 function init(){
-	$("#theme-song").trigger("play");
-	$(".text-content .instructions").fadeIn(1000);
+
 }
 
 
@@ -50,7 +49,6 @@ function playGame(){
 	function( event ) {
   	if ( event.which == 88 ) {
      ryu.attr("src", "images/ryu-cool.gif");
-     $("#coolMusic").trigger('play');
  	}
   	});
 
@@ -63,12 +61,3 @@ function playGame(){
   	});
 
 }
-
-
-
-
-
-
-
-
-
